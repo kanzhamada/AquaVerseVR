@@ -11,6 +11,8 @@ public class AnimateHandOnInput : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        pinchAnimationAction.action.Enable();
+        gripAnimationAction.action.Enable();
         
     }
 
